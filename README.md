@@ -42,20 +42,7 @@ class Program
                 break;
         }
 
-        Console.Write("You chose: ");
-        switch (playerChoice)
-        {
-            case 1:
-                Console.WriteLine("Rock");
-                break;
-            case 2:
-                Console.WriteLine("Paper");
-                break;
-            case 3:
-                Console.WriteLine("Scissors");
-                break;
-        }
-
+      
         if (computerChoice == playerChoice)
         {
             Console.WriteLine("It's a tie!");
